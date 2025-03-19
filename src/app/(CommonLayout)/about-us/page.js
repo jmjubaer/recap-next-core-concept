@@ -1,7 +1,7 @@
-import React from "react";
+import styles from "./About.module.css";
 
 const AboutUsPage = () => {
-    return <div>AboutUs Page</div>;
+    return <div className={styles.text_style}>AboutUs Page</div>;
 };
 
 export default AboutUsPage;

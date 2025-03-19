@@ -1,8 +1,8 @@
-import React from 'react';
+import styles from './Product.module.css';
 
 const ProductsPage = () => {
     return (
-        <div className='text-4xl'>
+        <div className={styles.text_style}>
             Products Page
         </div>
     );
