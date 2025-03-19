@@ -25,6 +25,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link href="/gallery" className="hover:text-gray-400">
+              Gallery
+            </Link>
+          </li>
+          <li>
             <Link href="/counter" className="hover:text-gray-400">
               Counter
             </Link>
