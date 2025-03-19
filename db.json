@@ -1,0 +1,64 @@
+{
+    "posts": [
+      { "id": "1", "title": "a title", "views": 100 },
+      { "id": "2", "title": "another title", "views": 200 }
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    },
+    "products": [
+        {
+          "id": 1,
+          "product_name": "MacBook Pro 16",
+          "category": "Laptop",
+          "brand": "Apple",
+          "price": 2499,
+          "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wfGVufDB8fDB8fHww"
+        },
+        {
+          "id": 2,
+          "product_name": "Dell XPS 15",
+          "category": "Laptop",
+          "brand": "Dell",
+          "price": 1899,
+          "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wfGVufDB8fDB8fHww"
+        },
+        {
+          "id": 3,
+          "product_name": "HP Spectre x360",
+          "category": "Laptop",
+          "brand": "HP",
+          "price": 1599,
+          "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wfGVufDB8fDB8fHww"
+        },
+        {
+          "id": 4,
+          "product_name": "Asus ROG Zephyrus G14",
+          "category": "Laptop",
+          "brand": "Asus",
+          "price": 1499,
+          "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wfGVufDB8fDB8fHww"
+        },
+        {
+          "id": 5,
+          "product_name": "Lenovo ThinkPad X1 Carbon",
+          "category": "Laptop",
+          "brand": "Lenovo",
+          "price": 1699,
+          "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wfGVufDB8fDB8fHww"
+        },
+        {
+          "id": 6,
+          "product_name": "Acer Swift 5",
+          "category": "Laptop",
+          "brand": "Acer",
+          "price": 999,
+          "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wfGVufDB8fDB8fHww"
+        }
+      ]
+      
+  }

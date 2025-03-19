@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-
+// We can only use metadata in server components. we can use "use client" in this page
 export const metadata = {
     title: "About us",
 };
