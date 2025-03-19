@@ -20,13 +20,18 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/about" className="hover:text-gray-400">
+            <Link href="/about-us" className="hover:text-gray-400">
               About Us
             </Link>
           </li>
           <li>
             <Link href="/counter" className="hover:text-gray-400">
               Counter
+            </Link>
+          </li>
+          <li>
+            <Link href="/dashboard" className="hover:text-gray-400">
+              Dashboard
             </Link>
           </li>
           <li>
