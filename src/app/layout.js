@@ -16,7 +16,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang='en'>
-            <body className={roboto.className}>{children}</body>
+            <body className={roboto.className}>
+                <div className='min-h-screen'>{children}</div>
+                <footer className="text-center p-5 bg-gray-800 mt-5">This is footer </footer>
+            </body>
         </html>
     );
 }
